@@ -88,3 +88,29 @@ body {
     margin-top: 20px; /* Adjust margin as needed */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
+/* Existing styles */
+
+/* Add a media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .search {
+    flex-direction: row; /* Display items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+
+  .search input {
+    width: 70%; /* Adjust the input width */
+    margin-right: 10px; /* Add right margin for spacing */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+
+  .search button {
+    width: 60px; /* Adjust the button width */
+    height: 40px; /* Adjust button height */
+    margin-right: 10px; /* Add right margin */
+    padding: 3px; /* Adjust padding */
+  }
+
+  .search button img {
+    width: 12px;
+  }
+}
